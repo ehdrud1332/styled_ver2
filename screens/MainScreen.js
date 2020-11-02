@@ -4,6 +4,7 @@ import {View, Text, StyleSheet, ScrollView, Image, TextInput} from 'react-native
 import {SafeAreaView} from 'react-native-safe-area-context';
 import theme from '../config/theme';
 import RecipePopular from "../components/RecipePopular";
+import TapRecipe from "../components/TapRecipe";
 
 const MainScreen = () => {
 
@@ -27,6 +28,7 @@ const MainScreen = () => {
                 </View>
 
                 <RecipePopular onPress={onPressDetail}/>
+                <TapRecipe onPress={onPressDetail}/>
             </ScrollView>
         </SafeAreaView>
     );
