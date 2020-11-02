@@ -12,10 +12,10 @@ const App = () => {
     return (
         <NavigationContainer>
           <MainStack.Navigator headerMode='none'>
-            <MainStack.Screen
-                name='IntroScreen'
-                component={IntroScreen}
-            />
+            {/*<MainStack.Screen*/}
+            {/*    name='IntroScreen'*/}
+            {/*    component={IntroScreen}*/}
+            {/*/>*/}
             <MainStack.Screen
                 name='MainScreen'
                 component={MainScreen}
